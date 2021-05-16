@@ -15,7 +15,7 @@ client.on("message", message => {
         .join()
         .then(async connection => {
           const dispatcher = connection.play(
-            "https://ice55.securenetsystems.net/DASH45"
+            "https://rainymood.com/audio1112/0.m4a"
           );
           dispatcher.on("finish", end => {
             voiceChannel.leave();

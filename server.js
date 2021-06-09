@@ -5,7 +5,7 @@ client.on("ready", function() {
   console.log("Connected");
 });
 client.on('ready', async () => {
-  client.user.setActivity("24/7 | TheOfficialAyush#0001",{type: "LISTENING"})
+  client.user.setActivity("24/7 | TheOfficialAyush#3282",{type: "LISTENING"})
      }); 
 client.on("message", message => {
   if (message.content.startsWith(`<@!${client.user.id}>`)) {
